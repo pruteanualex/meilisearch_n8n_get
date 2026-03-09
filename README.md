@@ -83,4 +83,4 @@ http://meilisearch:7700
 
 Developed by **ClarIT** — EFICIENTA-AUTOMATIZARE-PERSONALIZARE.
 
-🌐 [www.clarit.ro](https://www.clarit.ro/)# meilisearch_n8n_get
+🌐 [www.clarit.ro](https://www.clarit.ro/)

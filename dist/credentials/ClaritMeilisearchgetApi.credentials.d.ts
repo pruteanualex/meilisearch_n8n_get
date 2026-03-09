@@ -1,0 +1,14 @@
+import { ICredentialType, INodeProperties, Icon } from 'n8n-workflow';
+export declare class ClaritMeilisearchgetApi implements ICredentialType {
+    name: string;
+    displayName: string;
+    icon: Icon;
+    documentationUrl: string;
+    test: {
+        request: {
+            baseURL: string;
+            url: string;
+        };
+    };
+    properties: INodeProperties[];
+}
