@@ -1,10 +1,12 @@
 {
   "name": "n8n-nodes-clarit-search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n meilisearch",
   "license": "MIT",
   "homepage": "",
-  "keywords": ["n8n-community-node-package"],
+  "keywords": [
+    "n8n-community-node-package"
+  ],
   "author": {
     "name": "pruteanualex",
     "email": "pruteanualexandru764@gmail.com"
@@ -22,12 +24,18 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": false,
-    "credentials": ["dist/credentials/ClaritMeilisearchgetApi.credentials.js"],
-    "nodes": ["dist/nodes/ClaritMeilisearchget/ClaritMeilisearchget.node.js"]
+    "credentials": [
+      "dist/credentials/ClaritMeilisearchgetApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/ClaritMeilisearchget/ClaritMeilisearchget.node.js"
+    ]
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
@@ -36,6 +44,10 @@
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
-  "peerDependencies": { "n8n-workflow": "*" },
-  "dependencies": { "meilisearch": "^0.55.0" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "meilisearch": "^0.55.0"
+  }
 }
